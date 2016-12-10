@@ -13,9 +13,7 @@ About my way @ learn_python_the_hard_way
 
 08. `%r %r %r %r`
 
-09. ```
-    """
-    ```
+09. `"""`
 
 10. `\n \t \\ \'`
 
