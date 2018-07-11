@@ -1,3 +1,5 @@
+import time
+
 tabby_cat = "\tI'm tabbed in."
 persian_cat = "I'm split\non a line."
 backslash_cat = "I'm \\ a \\ cat."
@@ -9,13 +11,13 @@ I'll do a list:
 \t* Catnip\n\t* Grass
 """
 
-print tabby_cat
-print persian_cat
-print backslash_cat
-print fat_cat
+print (tabby_cat)
+print (persian_cat)
+print (backslash_cat)
+print (fat_cat)
 
 
 while True:
-    for i in ["/","-","|","\\","|"]:
-        print "%s\r" % i,
-        sleep(1)
+    for i in ["/ ","--","\\ ","| "]:
+        print (f"  {i}\r", end='')
+        time.sleep(0.3)
